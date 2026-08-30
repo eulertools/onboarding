@@ -1,0 +1,15 @@
+# What and Why summary limited to 50 characters
+
+# Details wrapped at 72 characters, and as detailed as it needs to be.
+
+# Ref: organization/other-repo#000
+# Closes: organization/other-repo#000
+
+# Two blank lines between details above and any trailers below.
+
+# Co-authored-by: Name <email@server>
+# Acked-by: Name <email@server>
+# change the following line in your templates folder to match your working
+# e-mail address for the project.  Otherwise add "sign-off" in your
+# gitconfigure file.
+# Signed-off-by: Author Name <email@server>

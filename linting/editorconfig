@@ -1,0 +1,66 @@
+# http://editorconfig.org
+# Set the root = true in the file that you would have in your `home` directory
+# root = true # <1>
+root = false  # <2>
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 120
+trim_trailing_whitespace = true
+
+[.editorconfig]
+charset = utf-8
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 100
+trim_trailing_whitespace = true
+
+[*.rb]
+insert_final_newline = true
+max_line_length = 80
+
+[*.{diff,md}]
+trim_trailing_whitespace = false
+
+[*.coffee]
+indent_style = space
+
+[{package.json,*.yml}]
+indent_size = 2
+indent_style = space
+
+[{*.json,Makefile}]
+indent_style = tab
+max_line_length = off
+
+[{*.js,*.ts}]
+block_comment_start = /*
+block_comment = *
+block_comment_end = */
+charset = utf-8
+curly_bracket_next_line = false
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+max_line_length = 100
+quote_type = single
+spaces_around_brackets = inside
+spaces_around_operators = true
+trim_trailing_whitespace = true
+
+# Matches the exact files either package.json
+[{package.json}]
+indent_size = 2
+indent_style = space
+
+[test/{dotdot,resolver,module_dir,multirepo,node_path,pathfilter,precedence}/**/*]
+indent_size = off
+indent_style = off
+insert_final_newline = off
+max_line_length = off
